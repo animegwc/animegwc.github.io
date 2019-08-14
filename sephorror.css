@@ -1,0 +1,27 @@
+.descrip, .yeet{
+  display: inline-block;
+
+
+}
+.yeet{
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.descrip{
+  padding: 50px;
+  font-size: 20px;
+  line-height: 35px;
+  background-color: #65616C;
+}
+#first{
+  background-image: url("https://c.wallhere.com/photos/9d/db/short_hair_school_uniform_open_mouth_anime_creepy_scary_face-1197295.jpg!d");
+  background-size: auto;
+  color: white;
+  text-align: center;
+}
+td{
+  padding-bottom: 20px;
+}
+body{
+  background-color: grey;
+}

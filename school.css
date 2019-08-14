@@ -1,0 +1,26 @@
+body{
+background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1464061528-84292c9e3c919bd380813c9eb692b66a.png");
+background-size: cover;
+color: white;
+}
+.firstimg {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+
+
+}
+img:hover{
+  border: solid white 1px;
+}
+h3{
+  text-align: center;
+  background-color: #C68080;
+  border-radius: 5px;
+}
+#navig {
+  display: inline;
+  background-color: #C68080;
+
+}
