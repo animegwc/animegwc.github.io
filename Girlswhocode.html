@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <link rel="stylesheet" href=" css/Style.css">
+  <title>Girls Who Code</title>
+
+  <!-- the eye icon -->
+  <link rel="icon" href="icon.png">
+
+  <!-- Calling the blossoms on the Javascript -->
+  <script src="blossoms.js"></script>
+
+</head>
+
+<body>
+  <header class="header"> </header>
+    <div> <h1>Girls Who Code</h1> </div>
+    <!-- Button for sidebar-->
+    <div> <button class="openbtn" onclick="openNav()"> ☰ </button> </div>
+
+    <p>
+      <h2 class="tab">Girls Who Code:</h2>
+    </p>
+
+    <h3>
+      <div class="tab2"> Girls Who Code is a program that teaches girls to code.
+      Their main objective is to increase the amount of women
+      in fields of Computer Science and close the gender gap
+      in technology. They want to help shape the
+      future female engineers.</div></h3>
+      <h3 class="tab2"> The coders who created this site made it for a GWC Summer
+      Immersion Program as the final project to present for
+      graduation.To learn more about us click on the <strong>About Us</strong> tab.</h3>
+      <h3 class="tab2">If you want to learn more about Girls Who Code or sign up
+       <a href='https://girlswhocode.com/about-us/' class="but">click here</a>
+      </h3>.
+
+      <center><img src="gwc.png"></center>
+
+
+
+
+
+
+
+    <!-- sidebar code -->
+      <div id="mySidebar" class="sidebar">
+      <center> <img src="title.png" id="image"> </center>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a onclick="window.location.href = 'index.html';">Home</a>
+      <a onclick="window.location.href = 'aboutus.html';">About Us</a>
+      <a href="#Girls Who Code">Girls Who Code</a>
+    </div>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+</body>
+</html>

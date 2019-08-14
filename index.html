@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/Style.css">
+  <title>ANIME</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- the eye icon -->
+  <link rel="icon" href="icon.png">
+
+  <!-- Calling the blossoms on the Javascript -->
+  <script src="blossoms.js"></script>
+
+</head>
+<body>
+  <header class="header"> </header>
+    <div> <h1>ANIME</h1> </div>
+
+    <!-- Button for sidebar-->
+    <div> <button class="openbtn" onclick="openNav()"> ☰ </button> </div>
+
+    <br><h3><center>This website was made as our GIRLS WHO CODE Final Project. Our website was
+    made solely through coding using JavaScript, HTML, and CSS. </center></h3></br>
+    <div class="title">
+
+    <br><div class="title">
+      <center>Genres:</center>
+    </div></br>
+
+
+    <!--category buttons -->
+    <div><center>
+      <a onclick="window.location.href = 'RomanceWebpage.html';" target="_blank" > <button id="romance"><img src="romance.jpg" id= "size" class="genbut"></button></a>
+      <a onclick="window.location.href = 'Slice_of_life.html';" target="_blank"> <button id="sliceoflife"><img src="sliceoflife.jpg" id= "size2" class="genbut"></button> </a>
+    </center></div>
+    <div><center>
+      <a onclick="window.location.href = 'Drama.html';" target="_blank"> <button id="drama"><img src="drama.jpg" id= "size" class="genbut"></button> </a>
+      <a onclick="window.location.href = 'Fantasywebpage.html';" target="_blank" > <button id="fantasy" ><img src="fantasy.jpg" id= "size2" class="genbut"></button> </a>
+      </center></div>
+    <div><center>
+      <a onclick="window.location.href = 'Horror.html';" target="_blank"<button id="horror" ><img src="horror.jpg" id= "size" class="genbut"></button> </a>
+      <a onclick="window.location.href = 'actionWebpage.html';" target="_blank" > <button id="action"><img src="action.jpeg" id= "size2" class="genbut"></button> </a>
+    </center></div>
+    <div><center>
+      <a onclick="window.location.href = 'Psychological.html';" target="_blank" > <button id="psychological" ><img src="psychological.jpg" id= "size" class="genbut"></button> </a>
+      <a onclick="window.location.href = 'MysteryWebpage.html';" target="_blank"> <button id="mystery"><img src="mystery.jpg" id= "size2" class="genbut"></button> </a>
+    </center></div>
+    <div><center>
+      <a onclick="window.location.href = 'School.html';" target="_blank"> <button id="school"><img src="school.jpg" id= "size" class="genbut"></button> </a>
+      <a onclick="window.location.href = 'Comedy.html';" target="_blank"> <button id="comedy"><img src="comedy.jpg" id= "size2" class="genbut"></button> </a>
+    </center></div>
+
+<!-- sidebar code -->
+  <div id="mySidebar" class="sidebar">
+  <center> <img src="title.png" id="image"> </center>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#Home">Home</a>
+  <a onclick="window.location.href = 'aboutus.html';">About Us</a>
+  <a onclick="window.location.href = 'Girlswhocode.html';">Girls Who Code</a>
+</div>
+
+<center><img src="gwc.png"></center>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+</body>
+
+</html>
