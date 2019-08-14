@@ -1,0 +1,73 @@
+table {
+  font-family:
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(255,0,0,0);
+}
+
+body {
+  background-image: url("https://www.dievantile.com/wp-content/uploads/2012/08/mystery3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Times New Roman;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  margin-top: -57px;
+}
+
+h2 {
+  color: white;
+}
+
+
+h3 {
+  color: white;
+}
+
+.intro {
+  color: white;
+  border-style: solid;
+  border-color: white;
+}
+
+ul {
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+#info {
+  font-size: 25px;
+  color: white;
+  padding-left: 435px;
+}
+#EpisodeChart{
+  font-size: 15px;
+}
+h4 {
+  color: white;
+}
+a {
+  color: White;
+  font-size: 35px;
+  padding-left: 400px;
+}
+
+ #EpisodeChart tr:hover {background-color: #99A3A4;}

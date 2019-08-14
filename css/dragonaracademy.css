@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://rlv.zcache.com/yellow_orange_pink_ombre_jigsaw_puzzle-r663b8b21e1f44944a268a087c92d8665_amb07_8byvr_307.jpg?rvtype=content");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fantasy;
+  color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ a {
+   font-size: 35px;
+   color: white;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: White;
+ }
+
+ #EpisodeChart {
+   font-family: fantasy;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #FFB74D;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color: white;
+ }

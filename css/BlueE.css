@@ -1,0 +1,88 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwp9TB3Hrim7YK4opyKKRMBPdeL5UBy4DgUQaZSmx80MyAZgoF);
+font-family: rock salt, sans-serif;
+background-size: contain;
+
+}
+/*.firstimg {
+  margin-left: 165%;
+  /* margin-right: 20px; */
+  /*display: inline-block;
+  padding: 10px;
+
+}
+/*img:hover{
+  border: solid white;*/
+}
+
+h3{
+  text-align: center;
+}
+ul{
+  display: inline-block;
+
+}
+h1 {
+  font-size: 50px;
+  color: #0144FE;
+}
+h2,h3,p,li{
+  color: #0144FE;
+}
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ a {
+   font-size: 35px;
+   color: #0144FE;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: White;
+ }
+
+ #EpisodeChart {
+   font-family: rock salt, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #0190FE;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color: white;

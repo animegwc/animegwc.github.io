@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLM0HJrXdYzqbLD2BpdfyqQq9_VvHLy7_F02YuXxU7bykk69wu");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Times New Roman;
+  color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+
+ a {
+   font-size: 35px;
+   color: white;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: white;
+ }
+
+ #EpisodeChart {
+   font-family: Times New Roman;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #839192;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color: white;
+ }
+
+ .intro {
+   border: solid;
+   border-width: medium;
+
+ }
+ .center2, .intro{
+display: inline-block;
+ }
+
+ #anime {
+   display:  inline-block;
+   font-size: 35px;
+ }

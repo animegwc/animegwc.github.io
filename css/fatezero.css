@@ -1,0 +1,79 @@
+body {
+  background-image: url("https://images4.alphacoders.com/182/thumb-1920-182834.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fantasy;
+  color: #0000CE;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: #0000CE;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ a {
+   font-size: 35px;
+   color: #0000CE;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: #0000CE;
+ }
+
+ #EpisodeChart {
+   font-family: fantasy;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #918c7e;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color:;
+ }
+
+h2 {
+  border: solid;
+  color: #0000CE;
+}
