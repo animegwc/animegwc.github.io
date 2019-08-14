@@ -1,0 +1,27 @@
+.descrip, .yeet{
+  display: inline-block;
+
+
+}
+.yeet{
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.descrip{
+  padding: 30px;
+  font-size: 20px;
+  line-height: 35px;
+  background-color: #C68080;
+}
+#first{
+  background-image: url("https://cdn.myanimelist.net/s/common/uploaded_files/1464061528-84292c9e3c919bd380813c9eb692b66a.png");
+  background-size: cover ;
+  color: white;
+  text-align: center;
+}
+td{
+  padding-bottom: 20px;
+}
+body{
+  background-color: #C68080;
+}

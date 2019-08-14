@@ -1,0 +1,28 @@
+.descrip, .yeet{
+  display: inline-block;
+
+
+}
+.yeet{
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.descrip{
+  padding: 30px;
+  font-size: 20px;
+  line-height: 35px;
+  background-color:#72AC87;
+}
+#first{
+  background-image: url("https://i.pinimg.com/originals/fc/43/a7/fc43a71e0201f8d0ff117a8c88a934c2.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+}
+td{
+  padding-bottom: 20px;
+}
+body{
+background-color: #A7DEBF;
+}
