@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2BTYMAynmgYzFemybYoSc2oVk6Q57QOOndrNomY1KuGyXyrz7");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+  color: black;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ a {
+   font-size: 35px;
+   color: black;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: black;
+ }
+
+ #EpisodeChart {
+   font-family: cursive;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #ffff33;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color: black;
+ }

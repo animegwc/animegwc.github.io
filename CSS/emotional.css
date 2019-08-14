@@ -1,0 +1,28 @@
+body{
+background-image: url("https://i.pinimg.com/originals/fc/43/a7/fc43a71e0201f8d0ff117a8c88a934c2.png");
+background-size: cover;
+color: white;
+}
+.firstimg {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 10px;
+
+
+}
+img:hover{
+  border: solid white 1px;
+}
+h3{
+  text-align: center;
+}
+#navig {
+  display: inline;
+  background-color:#72AC87;;
+
+}
+h3{
+  background-color: #72AC87;
+  border-radius: 5px;
+}
