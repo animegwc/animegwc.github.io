@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/cf/50/9f/cf509f68e76479d990ea500e7ab7f01a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fantasy;
+  color: #1d00fc;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: #1d00fc;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 55%;
+ }
+
+ a {
+   font-size: 35px;
+   color: #1d00fc;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: #1d00fc;
+ }
+
+ #EpisodeChart {
+   font-family: cursive;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #47c4f5;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color:;
+ }
+
+ h2 {
+   border: solid;
+   color: #1d00fc;
+ }
+
+ h3 {
+   border: solid;
+ }

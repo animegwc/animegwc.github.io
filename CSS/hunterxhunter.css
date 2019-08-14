@@ -1,0 +1,78 @@
+body {
+  background-image: url("https://www.xmple.com/wallpaper/linear-black-brown-gradient-1920x1080-c2-a0522d-000000-a-270-f-14.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Times New Roman;
+  color: yellow;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    color: yellow;
+    margin-top: -57px;
+  }
+
+  .firstimg {
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+ .center2 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ a {
+   font-size: 35px;
+   color: yellow;
+   text-align: center;
+ }
+
+ #Info{
+   display: inline-block;
+   font-size: 35px;
+ }
+
+ table {
+   color: yellow;
+ }
+
+ #EpisodeChart {
+   font-family: cursive;
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+ #EpisodeChart td, #EpisodeChart th {
+   border: 1px solid #ddd;
+   padding: 8px;
+   background-color: rgb(255, 0, 0, 0);
+ }
+
+ #EpisodeChart tr:nth-child(even){background-color: rgb(255, 0, 0, 0);}
+
+ #EpisodeChart tr:hover {background-color: #D35400;}
+
+ #EpisodeChart th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: rgb(255, 0, 0, 0);
+   color:yellow;
+ }
+
+ p {
+   border: solid;
+ }
